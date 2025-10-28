@@ -1,2 +1,3 @@
-# GDG25_Hackathone
-TBD
+# Counter App
+
+This is an place holder app.
