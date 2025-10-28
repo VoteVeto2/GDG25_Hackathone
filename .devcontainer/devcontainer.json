@@ -1,9 +1,10 @@
 {
   "name": "React + Express Dev Container",
-  "dockerFile": "Dockerfile",
-  "context": "..",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/GDG25_Hackathone",
   "forwardPorts": [3000, 5173, 3001],
-  "postCreateCommand": "npm install -g @anthropic-ai/claude-code",
+  "postCreateCommand": "npm install -g @anthropic-ai/claude-code nodemon vite",
   "customizations": {
     "vscode": {
       "settings": {
