@@ -17,7 +17,7 @@ function App() {
           <p>This is your starting point. Let's build something great together!</p>
           
           <div className="counter-section">
-            <button onClick={() => setCount((count) => count + 1)}>
+            <button onClick={() => setCount((prevCount) => prevCount + 1)}>
               Count is {count}
             </button>
             <p className="hint">
